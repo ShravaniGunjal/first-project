@@ -1,8 +1,157 @@
-.blackBackground{
-  background-color: black;
-  color: white;
-  text-align: center;
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
 }
-.whiteBackground{
-  text-align: center;
+.headerRightSection{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+
+}
+.backgroundImage{
+    background-image: url("https://3extent.vercel.app/Assets/home1.jpg");
+    width: 1343px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+.imgText{
+    color: white;
+    font-weight: bold;
+    font-size:24px;
+    margin-left: 60px;
+    padding-top: 22%;
+
+}
+.info{
+    background-color: #e5e7eb;
+}
+.text{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    /* margin: 50px 40px; */
+    padding: 20px 60px;
+}
+.para{
+    display:flex;
+    padding: 20px 60px;
+    align-items: center;
+}
+.paraText{
+    font-size: 17px;
+    line-height: 28px;
+    margin-right: 35px;
+}
+.img{
+    border-radius: 5px;
+}
+.leftText{
+    font-size: 17px;
+    margin-left:35px;
+    line-height: 28px;
+}
+.box{
+    background-color: rgb(255 255 255);
+    /* border: 1px solid; */
+    margin: 20px 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+.partnerWithUs{
+    font-weight: 600;
+    color:rgb(31 41 55 );
+    font-size: 30px;
+    padding: 18px 0px;
+}
+.partnerWithUsText{
+    font-size: 18px;
+    padding: 0px 20px 45px 20px;
+    color: rgb(75 85 99);
+}
+.founders{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    /* margin-right:80px ; */
+    /* justify-content: space-between; */
+    /* padding: 0 15%; */
+   
+}
+.ceoImg{
+    border-radius: 100%;
+    object-position: top;
+    object-fit: cover;
+    width: 192px;
+    height: 192px;
+    padding: 20px 50px;
+    /* text-align: center; */
+
+}
+.founderImage{
+    background-color: white;
+    border-radius: 10px;
+    margin:0px 50px;
+    /* gap: 70px; */
+}
+.aboutUs{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.founderImgText{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.founderName{
+    text-align: center;
+    margin: 20px 0px;
+}
+.mission{
+    background-color: white;
+    margin:40px 60px;
+    /* width: 50%;
+    margin: auto; */
+    /* text-align: center; */
+    padding: 30px;
+    border-radius: 10px;
+    /* width: 80%; */
+}
+.OurMission{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20PX 0PX;
+}
+.ourMissionText{
+    font-size: 17px;
+    /* padding: 20px 100px; */
+    text-align: center;
+    color: rgb(55 65 81);
+    width: 80%;
+    margin: auto;
+}
+.ourValues{
+   /* text-align: center; */
+   width: 80%;
+   margin: auto;
+   padding-left: 40px;
+   color: rgb(55 65 81);
+   line-height: 40px;
+   font-size: 18px;
+}
+strong{
+    font-size: 18px;
+    color: rgb(17 24 39)
+}
+.contacUsBox{
+    background-color: white;
+    margin: 20px 60px;
+    border-radius: 10px;
+    /* padding: 20px 60px; */
 }
