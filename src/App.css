@@ -149,9 +149,53 @@ strong{
     font-size: 18px;
     color: rgb(17 24 39)
 }
-.contacUsBox{
+.contactUsBox{
     background-color: white;
     margin: 20px 60px;
     border-radius: 10px;
     /* padding: 20px 60px; */
+}
+.contactUsText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(31 41 55 );
+    padding: 25px 0px;
+}
+.description{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    color: rgb(55 65 81 );
+    padding-bottom: 30px;
+}
+.contactUsCards{
+    display: flex;
+    padding: 0px 30px;
+    /* gap: 10px; */
+    /* width: 50%;
+    margin: auto; */
+}
+.office{
+    background-color: rgb(249 250 251 );
+    width: 28%;
+    /* border: 1px solid; */
+    padding: 0px 20px;
+    border-radius: 5px;
+    /* gap: 10px; */
+}
+.officeAddText{
+    color:rgb(31 41 55 );
+    font-size: 20px;
+    font-weight: bold;
+}
+.officeDesc{
+    width: 47%;
+    font-size: 14px;
+    color:rgb(31 41 55 );
+    padding: 20px 0px;
+}
+.contact{
+
 }

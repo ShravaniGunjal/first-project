@@ -68,18 +68,21 @@ function App() {
           <div className='ourValues'><strong>Integrity in Business - </strong>We believe in honest pricing and transparent deals.</div>
           <div className='ourValues'><strong>Partnership Focused - </strong>Your success is our success.</div>
         </div>
-        <div className='contacUsBox'>
-          <div>Contact Us</div>
-          <div>We’re here to help you with bulk orders, partnership inquiries, or any questions about our products and services. Get in touch with us through the details below — our team will respond promptly.
+        <div className='contactUsBox'>
+          <div className='contactUsText'>Contact Us</div>
+          <div className='description'>We’re here to help you with bulk orders, partnership inquiries, or any questions about our products and services. Get in touch with us through the details below — our team will respond promptly.
           </div>
-          <div>
-            <div>Office Address</div>
-            <div>3_EXTENT Pvt. Ltd.
+          <div className='contactUsCards'>
+          <div className='office'>
+            <div className='officeAddText'>Office Address</div>
+            <div className='officeDesc'>
+              3_EXTENT Pvt. Ltd.
               Shop No. 310, Deluxe Mall,
               Pimpri, Pune – 411017,
-              Maharashtra, India</div>
+              Maharashtra, India
+              </div>
           </div>
-          <div>
+          <div className='contact'>
             <div>Contact Us</div>
             <div>+91 9665856368</div>
             <div>dipak.dhawade@3extent.com</div>
@@ -89,6 +92,7 @@ function App() {
             <div>Monday – Saturday: 10:00 AM – 7:00 PM
 
               Sunday: Closed</div>
+          </div>
           </div>
         </div>
       </div>
